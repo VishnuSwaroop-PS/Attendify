@@ -1,0 +1,539 @@
+{
+  "courses": [
+    {
+      "name": "Introduction to Computer Science",
+      "code": "CS101",
+      "numberOfStudents": "20",
+      "students": [
+        {
+          "name": "John Doe",
+          "rollNumber": "10001",
+          "attendancePercentage": 95
+        },
+        {
+          "name": "Jane Smith",
+          "rollNumber": "10002",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "Alice Johnson",
+          "rollNumber": "10003",
+          "attendancePercentage": 88
+        },
+        {
+          "name": "Robert Brown",
+          "rollNumber": "10004",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Emily Davis",
+          "rollNumber": "10005",
+          "attendancePercentage": 85
+        },
+        {
+          "name": "Michael Wilson",
+          "rollNumber": "10006",
+          "attendancePercentage": 93
+        },
+        {
+          "name": "Sarah Miller",
+          "rollNumber": "10007",
+          "attendancePercentage": 89
+        },
+        {
+          "name": "David Moore",
+          "rollNumber": "10008",
+          "attendancePercentage": 91
+        },
+        {
+          "name": "Laura Taylor",
+          "rollNumber": "10009",
+          "attendancePercentage": 94
+        },
+        {
+          "name": "James Anderson",
+          "rollNumber": "10010",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Linda Thomas",
+          "rollNumber": "10011",
+          "attendancePercentage": 87
+        },
+        {
+          "name": "Kevin Jackson",
+          "rollNumber": "10012",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "Rachel White",
+          "rollNumber": "10013",
+          "attendancePercentage": 85
+        },
+        {
+          "name": "Daniel Harris",
+          "rollNumber": "10014",
+          "attendancePercentage": 93
+        },
+        {
+          "name": "Sophia Martin",
+          "rollNumber": "10015",
+          "attendancePercentage": 88
+        },
+        {
+          "name": "Christopher Lee",
+          "rollNumber": "10016",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Jessica Walker",
+          "rollNumber": "10017",
+          "attendancePercentage": 89
+        },
+        {
+          "name": "Matthew Hall",
+          "rollNumber": "10018",
+          "attendancePercentage": 95
+        },
+        {
+          "name": "Olivia Allen",
+          "rollNumber": "10019",
+          "attendancePercentage": 94
+        },
+        {
+          "name": "Joshua Young",
+          "rollNumber": "10020",
+          "attendancePercentage": 91
+        }
+      ]
+    },
+    {
+      "name": "Data Structures and Algorithms",
+      "code": "CS102",
+      "numberOfStudents": "20",
+      "students": [
+        {
+          "name": "Aiden Turner",
+          "rollNumber": "20001",
+          "attendancePercentage": 96
+        },
+        {
+          "name": "Chloe Wilson",
+          "rollNumber": "20002",
+          "attendancePercentage": 89
+        },
+        {
+          "name": "Ethan Clark",
+          "rollNumber": "20003",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "Sophia Lewis",
+          "rollNumber": "20004",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Liam Walker",
+          "rollNumber": "20005",
+          "attendancePercentage": 91
+        },
+        {
+          "name": "Mia Young",
+          "rollNumber": "20006",
+          "attendancePercentage": 93
+        },
+        {
+          "name": "Noah King",
+          "rollNumber": "20007",
+          "attendancePercentage": 94
+        },
+        {
+          "name": "Isabella Scott",
+          "rollNumber": "20008",
+          "attendancePercentage": 88
+        },
+        {
+          "name": "Logan Green",
+          "rollNumber": "20009",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Avery Adams",
+          "rollNumber": "20010",
+          "attendancePercentage": 95
+        },
+        {
+          "name": "Lucas Mitchell",
+          "rollNumber": "20011",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "Grace Phillips",
+          "rollNumber": "20012",
+          "attendancePercentage": 93
+        },
+        {
+          "name": "Mason Evans",
+          "rollNumber": "20013",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Ella Parker",
+          "rollNumber": "20014",
+          "attendancePercentage": 91
+        },
+        {
+          "name": "Oliver Roberts",
+          "rollNumber": "20015",
+          "attendancePercentage": 94
+        },
+        {
+          "name": "Abigail Turner",
+          "rollNumber": "20016",
+          "attendancePercentage": 88
+        },
+        {
+          "name": "Henry Campbell",
+          "rollNumber": "20017",
+          "attendancePercentage": 89
+        },
+        {
+          "name": "Aubrey Carter",
+          "rollNumber": "20018",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "James Allen",
+          "rollNumber": "20019",
+          "attendancePercentage": 95
+        },
+        {
+          "name": "Madison Richardson",
+          "rollNumber": "20020",
+          "attendancePercentage": 93
+        }
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "code": "CS103",
+      "numberOfStudents": "20",
+      "students": [
+        {
+          "name": "Emma Harris",
+          "rollNumber": "30001",
+          "attendancePercentage": 91
+        },
+        {
+          "name": "Liam Perez",
+          "rollNumber": "30002",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "Olivia Thomas",
+          "rollNumber": "30003",
+          "attendancePercentage": 94
+        },
+        {
+          "name": "Lucas Collins",
+          "rollNumber": "30004",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Sophia Martinez",
+          "rollNumber": "30005",
+          "attendancePercentage": 89
+        },
+        {
+          "name": "Mason Thompson",
+          "rollNumber": "30006",
+          "attendancePercentage": 95
+        },
+        {
+          "name": "Isabella Walker",
+          "rollNumber": "30007",
+          "attendancePercentage": 88
+        },
+        {
+          "name": "Ethan Young",
+          "rollNumber": "30008",
+          "attendancePercentage": 91
+        },
+        {
+          "name": "Mia Hernandez",
+          "rollNumber": "30009",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "Aiden Anderson",
+          "rollNumber": "30010",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Logan Martinez",
+          "rollNumber": "30011",
+          "attendancePercentage": 93
+        },
+        {
+          "name": "Chloe Carter",
+          "rollNumber": "30012",
+          "attendancePercentage": 88
+        },
+        {
+          "name": "Noah King",
+          "rollNumber": "30013",
+          "attendancePercentage": 95
+        },
+        {
+          "name": "Aubrey Clark",
+          "rollNumber": "30014",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Emma White",
+          "rollNumber": "30015",
+          "attendancePercentage": 89
+        },
+        {
+          "name": "Henry Hall",
+          "rollNumber": "30016",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "Ella Lewis",
+          "rollNumber": "30017",
+          "attendancePercentage": 94
+        },
+        {
+          "name": "Oliver Allen",
+          "rollNumber": "30018",
+          "attendancePercentage": 88
+        },
+        {
+          "name": "Grace Walker",
+          "rollNumber": "30019",
+          "attendancePercentage": 93
+        },
+        {
+          "name": "James Green",
+          "rollNumber": "30020",
+          "attendancePercentage": 95
+        }
+      ]
+    },
+    {
+      "name": "Database Management Systems",
+      "code": "CS104",
+      "numberOfStudents": "20",
+      "students": [
+        {
+          "name": "John Doe",
+          "rollNumber": "40001",
+          "attendancePercentage": 91
+        },
+        {
+          "name": "Jane Smith",
+          "rollNumber": "40002",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "Alice Johnson",
+          "rollNumber": "40003",
+          "attendancePercentage": 93
+        },
+        {
+          "name": "Robert Brown",
+          "rollNumber": "40004",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Emily Davis",
+          "rollNumber": "40005",
+          "attendancePercentage": 89
+        },
+        {
+          "name": "Michael Wilson",
+          "rollNumber": "40006",
+          "attendancePercentage": 94
+        },
+        {
+          "name": "Sarah Miller",
+          "rollNumber": "40007",
+          "attendancePercentage": 88
+        },
+        {
+          "name": "David Moore",
+          "rollNumber": "40008",
+          "attendancePercentage": 91
+        },
+        {
+          "name": "Laura Taylor",
+          "rollNumber": "40009",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "James Anderson",
+          "rollNumber": "40010",
+          "attendancePercentage": 95
+        },
+        {
+          "name": "Linda Thomas",
+          "rollNumber": "40011",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Kevin Jackson",
+          "rollNumber": "40012",
+          "attendancePercentage": 93
+        },
+        {
+          "name": "Rachel White",
+          "rollNumber": "40013",
+          "attendancePercentage": 88
+        },
+        {
+          "name": "Daniel Harris",
+          "rollNumber": "40014",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "Sophia Martin",
+          "rollNumber": "40015",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Christopher Lee",
+          "rollNumber": "40016",
+          "attendancePercentage": 94
+        },
+        {
+          "name": "Jessica Walker",
+          "rollNumber": "40017",
+          "attendancePercentage": 91
+        },
+        {
+          "name": "Matthew Hall",
+          "rollNumber": "40018",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "Olivia Allen",
+          "rollNumber": "40019",
+          "attendancePercentage": 89
+        },
+        {
+          "name": "Joshua Young",
+          "rollNumber": "40020",
+          "attendancePercentage": 93
+        }
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "code": "CS105",
+      "numberOfStudents": "20",
+      "students": [
+        {
+          "name": "Aiden Turner",
+          "rollNumber": "50001",
+          "attendancePercentage": 91
+        },
+        {
+          "name": "Chloe Wilson",
+          "rollNumber": "50002",
+          "attendancePercentage": 94
+        },
+        {
+          "name": "Ethan Clark",
+          "rollNumber": "50003",
+          "attendancePercentage": 88
+        },
+        {
+          "name": "Sophia Lewis",
+          "rollNumber": "50004",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "Liam Walker",
+          "rollNumber": "50005",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Mia Young",
+          "rollNumber": "50006",
+          "attendancePercentage": 91
+        },
+        {
+          "name": "Noah King",
+          "rollNumber": "50007",
+          "attendancePercentage": 95
+        },
+        {
+          "name": "Isabella Scott",
+          "rollNumber": "50008",
+          "attendancePercentage": 93
+        },
+        {
+          "name": "Logan Green",
+          "rollNumber": "50009",
+          "attendancePercentage": 89
+        },
+        {
+          "name": "Avery Adams",
+          "rollNumber": "50010",
+          "attendancePercentage": 94
+        },
+        {
+          "name": "Lucas Mitchell",
+          "rollNumber": "50011",
+          "attendancePercentage": 90
+        },
+        {
+          "name": "Grace Phillips",
+          "rollNumber": "50012",
+          "attendancePercentage": 88
+        },
+        {
+          "name": "Mason Evans",
+          "rollNumber": "50013",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "Ella Parker",
+          "rollNumber": "50014",
+          "attendancePercentage": 91
+        },
+        {
+          "name": "Oliver Roberts",
+          "rollNumber": "50015",
+          "attendancePercentage": 93
+        },
+        {
+          "name": "Abigail Turner",
+          "rollNumber": "50016",
+          "attendancePercentage": 94
+        },
+        {
+          "name": "Henry Campbell",
+          "rollNumber": "50017",
+          "attendancePercentage": 89
+        },
+        {
+          "name": "Aubrey Carter",
+          "rollNumber": "50018",
+          "attendancePercentage": 92
+        },
+        {
+          "name": "James Allen",
+          "rollNumber": "50019",
+          "attendancePercentage": 95
+        },
+        {
+          "name": "Madison Richardson",
+          "rollNumber": "50020",
+          "attendancePercentage": 81
+        }
+      ]
+    }
+  ]
+}
