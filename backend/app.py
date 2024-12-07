@@ -30,26 +30,37 @@ def register_student():
     if file.filename == '':
         return jsonify({"error": "No selected file"}), 400
 
-    if file and name:
-        file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
-        file.save(file_path)
-        image = cv2.imread(file_path)
-        if image is None:
-            return jsonify({"error": "Failed to read the image"}), 500
+    if file:
+        filename = 'captured_image.jpg'
+        filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        print(f"Saving file to: {filepath}")  # Debug line
+        try:
+            file.save(filepath)
+        except Exception as e:
+            return jsonify({"error": f"Failed to save file: {e}"}), 500
 
-        features = return_features_mean_personX(image)
-        if not features:
-            return jsonify({"error": "Failed to extract features"}), 500
+        # Initialize Dlib models
+        path_dlib = os.path.join(os.path.dirname(__file__),"data", 'data_dlib')
+        features_file = os.path.join(os.path.dirname(__file__), 'data', 'features_all.csv')
+        if not os.path.exists(path_dlib):
+            return jsonify({"error": f"Dlib data path {path_dlib} does not exist."}), 500
 
-        student_info = {
+        # Process the image
+        detector, predictor, face_reco_model = initialize_dlib_models(path_dlib)
+        features_mean_personX = return_features_mean_personX(filepath, detector, predictor, face_reco_model)
+
+        # Save the features to a CSV file
+        try:
+            save_features_to_csv(features_mean_personX, name, features_file)
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
+
+        # Return the features and name as JSON
+        features_response = {
             "name": name,
-            "features": features
+            "features": features_mean_personX.tolist()  # Convert numpy array to list
         }
-        save_features_to_csv(student_info, "student_data.csv")
-        os.remove(file_path)  # Clean up the file after processing
-        return jsonify({"message": "Student registered successfully"}), 200
-
-    return jsonify({"error": "Invalid request"}), 400
+        return jsonify({"message": "Student registered successfully", "data": features_response}), 200
 
 @app.route('/upload-frame', methods=['POST'])
 def upload_frame():

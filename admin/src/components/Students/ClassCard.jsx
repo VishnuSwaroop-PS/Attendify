@@ -16,7 +16,7 @@ import {
 } from "firebase/firestore";
 import { firestore } from "../../firebase/config";
 
-function ClassCard({ course, onDelete }) {
+function ClassCard({ course, onDelete,setClasses }) {
   const [showStudents, setShowStudents] = useState(false);
   const [showAddStudentsModal, setShowAddStudentsModal] = useState(false);
   const [students, setStudents] = useState([]);
@@ -78,6 +78,7 @@ function ClassCard({ course, onDelete }) {
     <div>
       {showAddStudentsModal && (
         <AddStudent
+        setClasses = {setClasses}
           course={course}
           onStudentAdded={handleStudentChanges}
           handleStudentModal={handleStudentModal}

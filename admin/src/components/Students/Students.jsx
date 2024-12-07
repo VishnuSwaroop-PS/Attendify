@@ -101,7 +101,7 @@ function Students({
       </div>
       <div className="flex flex-col gap-16 mt-20">
         {classes.map((course) => (
-          <ClassCard key={course.id} course={course} onDelete={handleDeleteClass} />
+          <ClassCard key={course.id} course={course} onDelete={handleDeleteClass} setClasses={setClasses} />
         ))}
       </div>
       <div

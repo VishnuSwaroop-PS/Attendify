@@ -4,7 +4,7 @@ import Webcam from "react-webcam";
 import { addDoc, collection, getDocs } from "firebase/firestore";
 import { firestore } from "../../firebase/config";
 
-function AddStudent({ handleStudentModal, onStudentAdded, course }) {
+function AddStudent({ handleStudentModal, onStudentAdded, course,setClasses }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [rollNumber, setRollNumber] = useState("");
@@ -39,7 +39,7 @@ function AddStudent({ handleStudentModal, onStudentAdded, course }) {
         formData.append('name', name);
 
         // Send the image to the backend for processing
-        const backendResponse = await fetch('http://127.0.0.1:5000/register-student', {
+        const backendResponse = await fetch('http://127.0.0.1:3000/register-student', {
             method: 'POST',
             body: formData,
         });
